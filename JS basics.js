@@ -8,14 +8,13 @@
 
   //Code Here
 
-var isTyler = function (argument) {
-	var name = 'Tyler';
-  if (name === argument) {
-    return true; 
-  } else {
+var isTyler = function (userName) {
+  if (userName === "Tyler") {
+    return true;
+   } else {
     return false;
-  } 
-};
+  }
+}
 //Next problem
 
 
