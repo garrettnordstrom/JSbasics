@@ -23,10 +23,10 @@ var isTyler = function (userName) {
 
 
   //Code Here 
-var getName = function (argument) {
-  var name = prompt("what is your name?");
-  return name;
-}
+  var getName = function() {
+    var name = prompt("what is your name?");
+    return name;
+  }
 
 
 //Next Problem
@@ -37,9 +37,10 @@ var getName = function (argument) {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-  var welcome = function (name) {
-    return 'welcome ' + myName;
+  var welcome = function(name) {
+    return getName.name, + "welcome";
   }
+
 
 
 //Next problem
